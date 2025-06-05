@@ -3,7 +3,6 @@
     padding: 20px;
     margin: 20px 0;
     background: #222;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
@@ -20,15 +19,17 @@
 .skills-container {
     display: flex;
     width: flex;
-   padding-right: 10px;;
+    padding-right: 10px;
 }
 
 .skills-list {
-    flex: auto;
+    
+    display:flex;
+    flex: content;
+    flex-direction: column;
     padding: 10;
     margin: 10px 10px;
     background: #333;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-radius: 8px;
     
 }
@@ -43,15 +44,8 @@
 
 .skills-list ul {
     list-style-type: circle;
-    padding: 5px;
+    padding: 25px;
     position: relative;
     
 }
 
-.skills-list li {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #ddd;
-    margin-bottom: 5px;
-    
-}
