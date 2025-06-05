@@ -1,15 +1,8 @@
 /* Contact section styles */
 #contact {
-    padding: 40px 20px;
-    margin: 20px auto;
-    background: #1e1e1e1e;
-    box-shadow: 0 4px 8px rgba(0,0,0,0,0.1);
-    border-radius: 8px;
-    max-width: 1200px;
-    text-align: left;
     display: flex;
-    flex-wrap: wrap;
-    text-align: left;
+    flex-direction: column
+
 }
 #contact h3 {
     font-size: 28px;
@@ -21,8 +14,14 @@
 .contact-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
-    slign
+    padding: 5px;
+    margin: 10px 0;
+    background: #222;
+    border-radius: 8px;
+    width:auto;
+
 }
 
 .contact-details {
